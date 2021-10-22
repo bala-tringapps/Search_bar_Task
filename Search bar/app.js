@@ -84,7 +84,7 @@ function search(event){
     menu_container.innerHTML = ''
     let new_list = listofitems.filter((title)=> {
         if(title.name.toLowerCase().trim().includes(searchTerm.trim().toLowerCase())){ 
-        check = true;
+        check = 1;
         return true;
         }
        else{
@@ -106,7 +106,7 @@ function store(){
 function show_item(menu_items){
     
     menu_items.forEach(item => {
-        if(check==true){
+        if(check==1){
             document.getElementById('notice').innerText = '';
         }
         const li = document.createElement('div');
