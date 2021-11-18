@@ -1,70 +1,82 @@
 const listofitems = [
     {  
+        id:1,
         name:"Mango",
        Price: "Rs.50/kg",
        Type:"Alphonso",
        url:"img/Mango.jpg"
     },
-   {   name:"Pineapple",
+   {   id:2,
+       name:"Pineapple",
        Price: "Rs.60/kg",
        Type:"Antigua Black",
        url:"img/Pineapple.jpg"
    },
    {
+       id:3,
        name:"Orange",
        Price: "Rs.50/kg",
        Type:"Saathukudi",
        url: "img/orange.jpg"
    },
    {
+       id:4,
        name:"Banana",
        Price: "Rs.60/dozen",
        Type:"Kozhikode",
        url: "img/Banana.jpg"
    },
    {
+       id:5,
        name:"Jackfruit",
        Price: "Rs.40/kg",
        Type:"Cheena",
        url: "img/jackfruit.jpg"
    },
    {
+       id:6,
        name:"Grapes",
        Price: "Rs.45/kg",
        Type:"Black",
        url: "img/Grapes.jpg"
    },
    {
+       id:7,
        name:"Oldfashioned",
        Price: "Rs.600",
        Type:"Cocktail",
        url: "img/oldfashioned.jpg"
    },
    {
+       id:8,
        name:"Drymartini",
        Price: "Rs.450",
        Type:"Cocktail",
        url:"img/martini.jpg"
    },
    {
+       id:9,
        name:"Cocacola",
        Price: "Rs.30/tin",
        Type:"Soft drinks",
        url:"img/coca-cola.jpg"
    },
    {
+       id:10,
        name:"pepsi",
        Price: "Rs.25/tin",
        Type:"Soft drinks",
        url:"img/pepsi-logo.jpg"
    },
    {
+       id:11,
        name:"whisky",
        Price: "Rs.200",
        Type:"Alcohol",
        url: "img/whisky.jpg"
    },
    {
+       id:12,
        name:"Beer",
        Price: "Rs.150",
        Type:"Alcohol",
